@@ -1,5 +1,5 @@
 # Michelin chef outreach: batch 2 drafts
-Send only after approval. Sender: Gmail (udddipandatta@gmail.com).
+Status: all 10 sent 2026-10-20 ~21:10 UTC from udddipandatta@gmail.com via Gmail. See leads.csv.
 
 ## 1. Seline (Santa Monica)
 
