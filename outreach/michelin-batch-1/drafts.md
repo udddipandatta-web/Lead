@@ -5,7 +5,7 @@ Each body below is counted from greeting to sign-off. Send only after approval.
 
 **To:** info@bonheurbymattabe.com  
 **Subject:** A digital expression of the Journey menu at Bonheur  
-**Words:** 140
+**Words:** 138
 
 ```
 Hi Matt,
@@ -20,14 +20,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 2. Kato (Los Angeles)
 
 **To:** info@katorestaurant.com  
 **Subject:** A digital narrative concept for Kato  
-**Words:** 138
+**Words:** 136
 
 ```
 Hi Jon,
@@ -42,14 +42,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 3. Joo Ok (New York)
 
 **To:** info@joo-ok.com  
 **Subject:** Quick idea for Joo Ok's perilla oil story  
-**Words:** 140
+**Words:** 138
 
 ```
 Hi Chef Shin,
@@ -64,14 +64,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 4. Californios (San Francisco)
 
 **To:** info@californiossf.com  
 **Subject:** A digital expression of your tasting menu at Californios  
-**Words:** 134
+**Words:** 132
 
 ```
 Hi Val,
@@ -86,14 +86,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 5. Maré by Rafael Cagali (Hove)
 
 **To:** bookings@marehove.com  
 **Subject:** Digital narrative concept for Maré  
-**Words:** 136
+**Words:** 134
 
 ```
 Hi Rafael,
@@ -108,14 +108,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 6. Killiecrankie House (Pitlochry, Scotland)
 
 **To:** hello@killiecrankiehouse.com  
 **Subject:** A digital expression of your tasting menu at Killiecrankie House  
-**Words:** 145
+**Words:** 143
 
 ```
 Hi Tom and Matilda,
@@ -130,14 +130,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 7. The Kerfield Arms (London (Camberwell))
 
 **To:** enquiries@thekerfieldarms.co.uk  
 **Subject:** Quick idea for The Kerfield Arms' menu  
-**Words:** 138
+**Words:** 136
 
 ```
 Hi Jay,
@@ -152,14 +152,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 8. Tom Brown at The Capital (London (Knightsbridge))
 
 **To:** tombrownatthecapital@warwickhotels.com  
 **Subject:** A digital expression of your menu at The Capital  
-**Words:** 144
+**Words:** 142
 
 ```
 Hi Tom,
@@ -174,14 +174,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 9. Labombe by Trivet (London (Mayfair))
 
 **To:** info@labombe.co.uk  
 **Subject:** Digital narrative concept for Labombe by Trivet  
-**Words:** 141
+**Words:** 139
 
 ```
 Hi Jonny and Isa,
@@ -196,14 +196,14 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
 
 ## 10. Forest Avenue (Dublin)
 
 **To:** info@forestavenuerestaurant.ie  
 **Subject:** A digital expression of your tasting menu at Forest Avenue  
-**Words:** 143
+**Words:** 141
 
 ```
 Hi John and Sandy,
@@ -218,5 +218,5 @@ Warm regards,
 
 Uddipan Datta
 Culinary Brand Strategist & Developer
-Uddipan Datta's Culinary Studio
+Finely Tossed
 ```
