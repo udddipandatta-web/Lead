@@ -1,0 +1,120 @@
+# Harvey configuration for Finely Tossed.
+# Copy this file into your Harvey checkout as harvey.local.yaml (it wins over
+# harvey.yaml there). No secrets live here: credentials go in Harvey's .env.
+
+persona:
+  name: "Uddipan Datta"
+  company: "Finely Tossed"
+  role: "Founder"
+  # Gmail for now. Switch to uddipan@finelytossed.com once that domain is
+  # bought, set up and warmed up (see README.md in this folder).
+  email: "udddipandatta@gmail.com"
+  linkedin: ""
+  tone: "warm, refined, quietly confident; a fellow craftsman, never salesy"
+
+product:
+  name: "Finely Tossed Digital Culinary Portfolios"
+  description: >-
+    Finely Tossed makes bespoke Digital Culinary Portfolios and Interactive
+    Digital Tasting Menus for Michelin-starred and fine-dining chefs. Each one
+    tells the story of a chef's menu, dish by dish, so guests can explore the
+    philosophy, sourcing and courses before and after they dine. Examples:
+    https://tastingmenu.netlify.app and https://uddipan-datta-culinary.netlify.app
+  # Harvey passes this to the writer. Finely Tossed never puts prices in email.
+  pricing: >-
+    Bespoke and quoted privately on a call only. Never mention price, cost,
+    fees, discounts or anything free in any email or reply.
+  key_benefits:
+    - "Tells the story behind each course, so guests arrive already invested in the menu"
+    - "An interactive tasting menu that matches the craft and tone of the dining room"
+    - "A lasting portfolio of the chef's seasonal menus and signature dishes"
+    - "Built bespoke for each chef, never from a template"
+  objection_responses:
+    "too expensive": "Every piece is bespoke, so it's scoped around what you'd actually use. Happy to walk through options on a short call rather than over email."
+    "already have a website": "This sits alongside your site rather than replacing it. It's a dedicated, interactive home for the menu itself and the story behind each course."
+    "not interested": "Completely understood, and thank you for letting me know. I won't follow up."
+    "no time": "That's exactly why I'd sketch the concept first. You'd only need to look at a short preview and tell me if it feels right."
+  offer:
+    primary: "A bespoke Digital Culinary Portfolio or Interactive Digital Tasting Menu"
+    entry: "A short concept preview built around one of the chef's current menus"
+    goal: "get_reply"
+    booking_method: "ask_preference"
+    booking_url: ""
+    meeting_duration: "15 minutes"
+    meeting_owner: "Uddipan Datta"
+
+icp:
+  industries:
+    - "Fine dining restaurant"
+    - "Michelin-starred restaurant"
+    - "Tasting menu restaurant"
+  company_size: "1-100 employees"
+  titles:
+    - "Chef Patron"
+    - "Chef Owner"
+    - "Executive Chef"
+    - "Head Chef"
+    - "Restaurant Owner"
+    - "General Manager"
+  geography:
+    - "London, United Kingdom"
+    - "Edinburgh, United Kingdom"
+    - "Manchester, United Kingdom"
+    - "Dublin, Ireland"
+    - "New York, NY"
+    - "San Francisco, CA"
+    - "Los Angeles, CA"
+    - "Chicago, IL"
+  hiring_signals:
+    - "Head Chef"
+    - "Sous Chef"
+    - "Pastry Chef"
+    - "Sommelier"
+    - "Restaurant Manager"
+  # "lat,lng,radius_km" for each geography entry, used by listings providers.
+  geo_coordinates:
+    "London, United Kingdom": "51.5074,-0.1278,15"
+    "Edinburgh, United Kingdom": "55.9533,-3.1883,10"
+    "Manchester, United Kingdom": "53.4808,-2.2426,10"
+    "Dublin, Ireland": "53.3498,-6.2603,10"
+    "New York, NY": "40.7128,-74.0060,15"
+    "San Francisco, CA": "37.7749,-122.4194,10"
+    "Los Angeles, CA": "34.0522,-118.2437,20"
+    "Chicago, IL": "41.8781,-87.6298,15"
+
+channels:
+  email:
+    enabled: true
+    provider: "gmail"
+    # Low on purpose: a personal Gmail on a new pattern of cold email.
+    max_daily_sends: 15
+    require_approval: true      # every email waits for you in the Outbox
+    send_to_risky: false
+    max_bounce_rate: 0.03
+    warmup:
+      start_date: ""            # set when the finelytossed.com mailbox starts warming up
+      min_days: 14
+      start_sends: 5
+      daily_increase: 3
+      dkim_selector: ""
+  linkedin:
+    enabled: false
+
+usage:
+  max_daily_claude_percent: 60
+  heartbeat_interval_minutes: 15
+  quiet_hours:
+    start: "22:00"
+    end: "07:00"
+    timezone: "Europe/London"
+
+compliance:
+  # REQUIRED before the first campaign: a street address, PO box or virtual
+  # mailbox where you receive post. Harvey adds it under every cold email.
+  postal_address: ""
+  opt_out_line: 'Not the right fit? Reply "no thanks" and I won''t email again.'
+  precleared:
+    enabled: false
+    sender_country: ""          # GB or US only; leave off unless you register there
+    address_source: "published" # addresses come from the restaurants' own sites
+    prospect_country: ""
